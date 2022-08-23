@@ -1,0 +1,535 @@
+*{
+    background-color: black;
+    align-items: center;
+
+}
+
+/* CSS For Header */
+
+.Header {
+    width: 98%;
+    height:auto;
+    align-items: center;
+    margin: 20px 15px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: x-large;
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+}
+
+.Links {
+    margin: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style:none;
+    color: white;
+}
+
+.Header:hover {
+    color:#007bff ;
+}
+
+.Join {
+    margin: 0%;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px;
+    font-size:x-large;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(204, 104, 99);
+}
+
+/* CSS For Home Banner */
+
+.Banner {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:space-between;
+}
+
+.BannerText {
+    text-align: center;
+    margin-left: 2%;
+}
+
+.BannerHeading {
+    font-size:75px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.BannerSubHeading {
+    font-size:35px;
+    line-height: 4px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.BannerSubHeading>span {
+    color:rgb(204, 104, 99);
+}
+
+.Discription {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:25px;
+    color:rgb(204, 104, 99) ;
+    font-weight: 700;
+}
+
+/* CSS For Agenda */
+
+.Agenda {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.AgendaHeading {
+    font-size: 60px;
+    font-weight:900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h3 {
+    justify-content: center;
+    color:white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Days {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 250px 250px;
+    grid-template-columns:500px 500px;
+    grid-gap:40px;
+
+}
+.Card {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    margin: 20px;
+    background-color:  RGB(52, 58, 63);
+    color: white;
+    border-radius:10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Card>img {
+    background-color: transparent;
+}
+
+.Card>h3 {
+    background-color: transparent;
+}
+
+.Day2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Day2>.Card {
+    display: flex;
+    padding:30px;
+    margin: 0px 40px 0px 40px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+/* CSS For Quote */
+
+.Quote {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0% 100px 0%;
+    padding: 50px 0px 50px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: RGB(52, 58, 63);
+
+}
+
+.Quote>h1 {
+    background-color: transparent;
+}
+
+span {
+    background-color: transparent;
+    color:rgb(204, 104, 99);
+}
+
+/* CSS For Poster */
+
+.Poster {
+    margin: 30px 0px 60px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS For Points To Note */
+
+.Points {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Box {
+    width:auto;
+    padding: 30px 70px 30px 80px;
+    display:flex ;
+    justify-content:center;
+    color: white;
+    background-color: RGB(52, 58, 63);
+    border-radius: 20px;
+}
+
+.Information{
+    background-color: RGB(52, 58, 63);
+    text-align:left;
+
+}
+
+.Information>h1 {
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 40px;
+}
+
+.Information>ul {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+ul,li,h1,h2{
+    background-color: transparent;
+}
+
+.Availability {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Price {
+   margin:30px 30px 20px 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.OriginalPrice {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.ActualPrice {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height:10px;
+    color: #ef6e58 ;
+}
+
+.Price>p {
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 650;
+}
+
+.Register {
+    background-color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* CSS For Speakers  */
+
+.Speakers {
+    display: flex;
+    justify-content: center;
+    width:80%;
+    margin: 10%;
+
+
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:0px;
+}
+
+.About>p{
+
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    color:#c7c7c7 ;
+}
+
+.SpeakerImage {
+    display: flex;
+    border-radius:10px;
+    margin: 10px 0px 10px 20px;
+}
+
+/* CSS For Footer */
+
+.Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color:RGB(52, 58, 63) ;
+
+}
+
+.FooterDetails {
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:60px 100px 50px 100px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.FooterDetails >p{
+    color: #6c757d;
+    background-color: transparent;
+    text-align: center;
+    line-height: 30px;
+}
+
+.FooterDetails >h4 {
+    align-items: center;
+    color:white;
+    background-color: transparent;
+}
+
+/* CSS For Copyrights */
+
+.Copyrights {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    color: #6c757d;
+    background-color:RGB(52, 58, 63);
+    text-align: center;
+}
+
+a{
+    background-color:transparent;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+
+    .Header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+    }
+
+    .Banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Agenda{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Days{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card{
+        width: 70%;
+        height: 20vh;
+        display: flex;
+        border-radius:18px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Card>img{
+        width: 150px;
+        height:150px
+    }
+
+    .Card>h3{
+
+        font-size: 40px ;
+    }
+
+    .Day2{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Day2>.Card {
+        width: 70%;
+        height: 20vh;
+        display: flex;
+        border-radius:18px;
+        margin-top:50px;
+        align-items: center;
+
+    }
+
+    .h3{
+        font-size: 40px ;
+    }
+
+    .Quote{
+        text-align: center;
+    }
+
+    .Points {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+    .points>.Box{
+        /* width:40%; */
+    }
+
+    .Box{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+    }
+
+    
+
+
+    .Information>h1{
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .Information>ul{
+        text-align:left;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 70px;
+    }
+
+    .Availability{
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .OriginalPrice {
+        font-weight: 700;
+        font-size: 80px;
+    }
+
+    .ActualPrice {
+        font-weight: 700;
+        font-size: 70px;
+    }
+    .Price>p {
+        font-size:xx-large;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+
+    .Register {
+        background-color: white;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 50px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .About>h1{
+        font-size: 50px;
+    }
+
+    .About{
+        font-size:x-large;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .Footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FooterDetails> h4{
+        font-size:20px;
+    }
+
+    .FooterDetails> p{
+        font-size:20px;
+        word-wrap: normal;
+    }
+
+    .Copyrights{
+        font-size:20px;
+        word-wrap: normal;
+    }
+
+}
