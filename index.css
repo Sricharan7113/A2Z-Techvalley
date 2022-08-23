@@ -359,6 +359,7 @@ a{
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 
     .Header{
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -367,6 +368,7 @@ a{
     }
 
     .Banner{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
